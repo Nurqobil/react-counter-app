@@ -1,0 +1,44 @@
+/* Counter.css */
+.counter {
+    text-align: center;
+    margin: 100px 100px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .action-button {
+    padding: 10px 20px;
+    margin: 0 20px;
+    font-size: 1.5em;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 5px 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 80px;
+    height: 50px;
+  }
+  
+
+  .action-button:nth-child(2){
+    width: 80px;
+    height: 50px;
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 1.5em;
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 5px 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .action-button:hover {
+    background-color: #2980b9;
+  }
+  
